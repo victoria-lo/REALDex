@@ -4,6 +4,8 @@ A Pokedex is a small, portable device that can detect any Pokemon it sees and re
 ## What it does
 The REALDex is an image classifying mobile app that detects Pokémon from an uploaded image or camera. When it detects a Pokémon, it will fetch that Pokémon’s data from PokeAPI then return the Pokémon’s data via speech, just the Pokedex we see on TV shows!
 
+> See Devpost link: https://devpost.com/software/realdex
+
 ## How we built it
 Using Google Cloud technologies (AutoML Vision, Storage and Text-To-Speech), we built a custom image classification model using over 10000 images for over 150 species of Pokémon.
 
