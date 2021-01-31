@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## Inspiration
+A Pokedex is a small, portable device that can detect any Pokemon it sees and return its description and data via speech. In this 24-hour hackathon, we turned that impossible dream into reality by building our mobile app, REALDex, the Real Pokedex.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
+The REALDex is an image classifying mobile app that detects Pokémon from an uploaded image or camera. When it detects a Pokémon, it will fetch that Pokémon’s data from PokeAPI then return the Pokémon’s data via speech, just the Pokedex we see on TV shows!
 
-## Available Scripts
+## How we built it
+Using Google Cloud technologies (AutoML Vision, Storage and Text-To-Speech), we built a custom image classification model using over 10000 images for over 150 species of Pokémon.
 
-In the project directory, you can run:
+> Disclaimer: The model we built was prepared before the start of this hackathon.
 
-### `npm start`
+In this short 24-hour hackathon, we took our pre-built custom model and integrate it into our app using Firebase ML Kit and Android Studio. The mobile app is written in Kotlin, and it was our first time writing in that language.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Challenges we ran into
+- Importing a large model and compressing it for mobile use took some time to figure out.
+- First time trying to use Android Studio and Firebase ML Kit, we spent a lot of time researching how to allow the app to use the camera to detect Pokémon.
+- Android Studio: Took a lot of time navigating how to use and create a basic UI for the app. Researched third-party libraries such as CameraX and Text-to-Speech to include all the features we want for this app.
+- The Text-to-Speech pronounced some Pokémon names incorrectly and also pronounced Pokemon as “Poke-kuh-man” so we had to specifically tell it to pronounce as “Pok-kay-mon” as a workaround.
+- First time writing in Kotlin. Android Studio uses Java or Kotlin, and we decided to write in Kotlin to learn the language and challenge ourselves for this hackathon.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Accomplishments that we're proud of
 
-### `npm test`
+- Completed a basic Pokedex app which works very similarly to the ‘real’ one from our childhood
+- Achieved an average 80% accuracy with the compressed model. It can also detect live Pokémon objects, not just images from Google.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What we’ve learned
+- A great deal about Android Studio in a short amount of time
+- Basic Kotlin knowledge acquired!
+- Google Cloud products such as AutoML Vision, Storage and Text-to-Speech that can turn an impossible dream into reality
+- Extensions of Google Cloud products like Firebase ML Kit
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for REALDex
+- More Pokémon: there over 900 different species waiting to be included in the AutoML Vision Image Classification model.
+- Higher Accuracy: we plan to achieve over 95% accuracy as we continue to improve the custom model.
+- Animations & UI: we definitely need to improve the look and feel of the app to make it seem more like a real Pokedex. We plan to start researching into Android Studio animations and charting libraries, so that the app not only returns the Pokémon’s data via speech, but also displays its information in visually appealing charts.
