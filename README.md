@@ -19,7 +19,6 @@ In this short 24-hour hackathon, we took our pre-built custom model and integrat
 - First time writing in Kotlin. Android Studio uses Java or Kotlin, and we decided to write in Kotlin to learn the language and challenge ourselves for this hackathon.
 
 ## Accomplishments that we're proud of
-
 - Completed a basic Pokedex app which works very similarly to the ‘real’ one from our childhood
 - Achieved an average 80% accuracy with the compressed model. It can also detect live Pokémon objects, not just images from Google.
 
@@ -33,3 +32,10 @@ In this short 24-hour hackathon, we took our pre-built custom model and integrat
 - More Pokémon: there over 900 different species waiting to be included in the AutoML Vision Image Classification model.
 - Higher Accuracy: we plan to achieve over 95% accuracy as we continue to improve the custom model.
 - Animations & UI: we definitely need to improve the look and feel of the app to make it seem more like a real Pokedex. We plan to start researching into Android Studio animations and charting libraries, so that the app not only returns the Pokémon’s data via speech, but also displays its information in visually appealing charts.
+
+## Screenshots
+<img src="https://res.cloudinary.com/viclo2606/image/upload/v1612095169/devpost/2_citbi1.png" width="500px"/>
+
+<img src="https://res.cloudinary.com/viclo2606/image/upload/v1612095169/devpost/1_xgv6xa.png" width="500px"/>
+
+<img src="https://res.cloudinary.com/viclo2606/image/upload/v1612095169/devpost/3_aigzsu.png" width="500px"/>
