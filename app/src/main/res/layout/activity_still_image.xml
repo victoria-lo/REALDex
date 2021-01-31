@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:background="@color/header_background"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:text="Image Classification Pokedex"
+            android:layout_width="364dp"
+            android:layout_height="71dp"
+            android:id="@+id/title_text"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/light_background" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_preview"
+        android:layout_width="match_parent"
+        android:layout_height="585dp"
+        android:layout_below="@id/header"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:textColor="@android:color/primary_text_light_nodisable"
+        android:textSize="@dimen/text_size"
+        android:text="Upload an image or take a photo to start."
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="615dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="83dp"
+        android:layout_alignParentTop="true"
+        android:gravity="top" />
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center_horizontal"
+        android:background="@color/header_background"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <ImageButton
+            android:id="@+id/photo_library_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_photo_library"
+            android:backgroundTint="@color/light_background"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:scaleType="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="170dp" />
+
+
+        <ImageButton
+            android:id="@+id/photo_camera_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_photo_camera"
+            android:backgroundTint="@color/light_background"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

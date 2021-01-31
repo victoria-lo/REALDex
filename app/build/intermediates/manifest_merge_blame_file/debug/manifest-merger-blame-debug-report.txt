@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gameguildstudios.pokedex"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:6:5-64
+11-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:6:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:7:5-66
+12-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:7:22-64
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:8:5-59
+14-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:8:19-57
+15    <uses-feature android:name="android.hardware.camera.autofocus" />
+15-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:9:5-69
+15-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:9:19-67
+16
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:5-79
+17-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:5-68
+18-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:22-79
+20
+21    <application
+21-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:11:5-38:19
+22        android:allowBackup="true"
+22-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:12:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\7e74968a975dedfdaf64ad2b0bce8c39\core-1.0.0\AndroidManifest.xml:22:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:13:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:14:9-41
+27        android:testOnly="true"
+28        android:theme="@style/MaterialTheme" >
+28-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:15:9-45
+29        <activity
+29-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:18:9-27:20
+30            android:name="com.gameguildstudios.pokedex.StillImageActivity"
+30-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:19:13-47
+31            android:screenOrientation="portrait" >
+31-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:20:13-49
+32            <intent-filter>
+32-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:22:13-25:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:23:17-68
+33-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:24:17-76
+35-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:24:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:29:9-37:20
+40            android:name="androidx.core.content.FileProvider"
+40-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:30:13-62
+41            android:authorities="com.gameguildstudios.pokedex.fileprovider"
+41-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:31:13-76
+42            android:exported="false"
+42-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:32:13-37
+43            android:grantUriPermissions="true" >
+43-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:33:13-47
+44            <meta-data
+44-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:34:13-36:53
+45                android:name="android.support.FILE_PROVIDER_PATHS"
+45-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:35:17-67
+46                android:resource="@xml/file_paths" />
+46-->C:\Users\victo\Desktop\pokedex\app\src\main\AndroidManifest.xml:36:17-51
+47        </provider>
+48
+49        <service
+49-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:29:9-35:19
+50            android:name="com.google.firebase.components.ComponentDiscoveryService"
+50-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:30:13-84
+51            android:exported="false" >
+51-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:31:13-37
+52            <meta-data
+52-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:32:13-34:85
+53                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+53-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:33:17-96
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:34:17-82
+55        </service>
+56
+57        <receiver
+57-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:37:9-44:20
+58            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+58-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:38:13-78
+59            android:exported="true"
+59-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:39:13-36
+60            android:permission="com.google.android.c2dm.permission.SEND" >
+60-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:40:13-73
+61            <intent-filter>
+61-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:41:13-43:29
+62                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+62-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:17-81
+62-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\3ce17a8bbd23b2f472676ad6816f2648\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:25-78
+63            </intent-filter>
+64        </receiver>
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\1f2c9c55ebd8f7ce2fd080af1373ff1a\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\1f2c9c55ebd8f7ce2fd080af1373ff1a\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\1f2c9c55ebd8f7ce2fd080af1373ff1a\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\1f2c9c55ebd8f7ce2fd080af1373ff1a\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+70
+71        <provider
+71-->[com.google.firebase:firebase-common:17.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\4a9582950bb4d0ff10dc55e9a5d48863\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+72            android:name="com.google.firebase.provider.FirebaseInitProvider"
+72-->[com.google.firebase:firebase-common:17.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\4a9582950bb4d0ff10dc55e9a5d48863\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+73            android:authorities="com.gameguildstudios.pokedex.firebaseinitprovider"
+73-->[com.google.firebase:firebase-common:17.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\4a9582950bb4d0ff10dc55e9a5d48863\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+74            android:exported="false"
+74-->[com.google.firebase:firebase-common:17.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\4a9582950bb4d0ff10dc55e9a5d48863\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+75            android:initOrder="100" />
+75-->[com.google.firebase:firebase-common:17.0.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\4a9582950bb4d0ff10dc55e9a5d48863\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\4a15dbe248ab985b3dabaa87f92960b8\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\4a15dbe248ab985b3dabaa87f92960b8\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\victo\.gradle\caches\transforms-2\files-2.1\4a15dbe248ab985b3dabaa87f92960b8\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+80    </application>
+81
+82</manifest>

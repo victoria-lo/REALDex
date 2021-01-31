@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_photo_camera.xml.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\drawable-anydpi\\ic_photo_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_photo_library.xml.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\drawable-anydpi\\ic_photo_library.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_still_image.xml.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\layout\\activity_still_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\victo\\Desktop\\pokedex\\app\\src\\main\\res\\xml\\file_paths.xml"
+    }
+]

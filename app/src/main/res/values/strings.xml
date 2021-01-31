@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pokedex</string>
+
+    <string name="next_image">Run Pokedex Analysis</string>
+
+    <string name="fail_to_initialize_img_classifier">Failed to initialize an image classifier.</string>
+    <string name="uninitialized_img_classifier_or_invalid_context">Uninitialized Classifier or invalid context.</string>
+
+</resources>

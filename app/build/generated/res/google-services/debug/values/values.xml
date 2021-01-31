@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">709734268121-rhv2ok0lkq5bt0jikrfs318s5ts9jvck.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">709734268121</string>
+    <string name="google_api_key" translatable="false">AIzaSyCgaM6tLU3x5PMt2HszB0G3cPCxGQ71hyk</string>
+    <string name="google_app_id" translatable="false">1:709734268121:android:580b9ca5ef43e9f37512c8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCgaM6tLU3x5PMt2HszB0G3cPCxGQ71hyk</string>
+    <string name="google_storage_bucket" translatable="false">pokedex-android.appspot.com</string>
+    <string name="project_id" translatable="false">pokedex-android</string>
+</resources>

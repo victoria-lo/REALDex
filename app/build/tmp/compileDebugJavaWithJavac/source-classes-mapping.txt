@@ -1,0 +1,2 @@
+com/gameguildstudios/pokedex/BuildConfig.java
+ com.gameguildstudios.pokedex.BuildConfig
