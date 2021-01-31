@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\victo\\Desktop\\Projects\\pokedex\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-2\\files-2.1\\48fa2c81f2ffc592db97b934213d11b9\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",

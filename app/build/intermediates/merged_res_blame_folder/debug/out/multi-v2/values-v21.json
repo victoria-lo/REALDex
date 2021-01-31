@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\victo\\Desktop\\pokedex\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\victo\\Desktop\\Projects\\pokedex\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-2\\files-2.1\\f1f2ebb8c316db08c562b53ff69bce9f\\media-1.0.0\\res\\values-v21\\values-v21.xml",

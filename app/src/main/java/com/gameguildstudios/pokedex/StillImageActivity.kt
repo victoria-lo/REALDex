@@ -14,7 +14,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.FileProvider
-import com.google.firebase.ml.common.  FirebaseMLException
+import com.google.firebase.ml.common.FirebaseMLException
 import com.google.firebase.ml.vision.common.FirebaseVisionImage
 import okhttp3.Call
 import okhttp3.Callback
@@ -38,6 +38,7 @@ class StillImageActivity : BaseActivity() {
   private var classifier: ImageClassifier? = null
 
   private var pokemon = ""
+  private var entry = ""
 
   private var tts: TextToSpeech? = null
 
@@ -196,6 +197,39 @@ class StillImageActivity : BaseActivity() {
     }
   }
 
+  private fun getSpeciesDescription(speciesName: String, type1: String, type2: String = ""){
+    val request = Request.Builder().url(speciesName).build()
+
+    val client = OkHttpClient();
+    client.newCall(request).enqueue(object: Callback {
+      override fun onResponse(call: Call, response: Response) {
+        val body = response?.body()?.string()
+        val obj = JSONObject(body)
+        val textArray = obj.getJSONArray("flavor_text_entries")
+        var entrySlot = textArray.getJSONObject(0)
+        if (entrySlot.getJSONObject("language").getString("name") !== "en"){
+          for (i in 0 until textArray.length()) {
+            if (textArray.getJSONObject(i).getJSONObject("language").getString("name") == "en") {
+              entrySlot = textArray.getJSONObject(i)
+            }
+          }
+        }
+        entry = entrySlot.getString("flavor_text")
+
+        if(type2 != ""){
+          speakOut("$pokemon, the $type1 and $type2 type poekaymaan. $entry")
+        }else{
+          speakOut("$pokemon, the $type1 type poekaymaan. $entry")
+        }
+      }
+
+      override fun onFailure(call: Call, e: IOException) {
+        Toast.makeText(baseContext, "Fail to fetch species data.", Toast.LENGTH_SHORT).show()
+      }
+
+    })
+  }
+
   private fun runPokedexAnalysis() {
     val url = "https://pokeapi.co/api/v2/pokemon/$pokemon"
     val request = Request.Builder().url(url).build()
@@ -205,18 +239,23 @@ class StillImageActivity : BaseActivity() {
       override fun onResponse(call: Call, response: Response) {
         val body = response?.body()?.string()
         val obj = JSONObject(body)
+        val species = obj.getJSONObject("species")
+        val speciesName = species.getString("url")
         val typesArray = obj.getJSONArray("types")
         val typeSlot = typesArray.getJSONObject(0)
         val type = typeSlot.getJSONObject("type")
         val typeName = type.getString("name")
+
         if(typesArray.length() == 1) {
-          speakOut("$pokemon, the $typeName type poekaymaan.")
+          //speakOut("$pokemon, the $typeName type poekaymaan. $entry")
+          getSpeciesDescription(speciesName, typeName)
         }
         else{
           val typeSlot2 = typesArray.getJSONObject(1)
           val type2 = typeSlot2.getJSONObject("type")
           val typeName2 = type2.getString("name")
-          speakOut("$pokemon, the $typeName and $typeName2 type poekaymaan.")
+          //speakOut("$pokemon, the $typeName and $typeName2 type poekaymaan. $entry")
+          getSpeciesDescription(speciesName, typeName, typeName2)
         }
       }
 

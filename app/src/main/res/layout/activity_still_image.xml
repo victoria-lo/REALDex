@@ -15,7 +15,7 @@
 
 
         <TextView
-            android:text="Image Classification Pokedex"
+            android:text="REALDex"
             android:layout_width="364dp"
             android:layout_height="71dp"
             android:id="@+id/title_text"
